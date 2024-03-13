@@ -2,3 +2,19 @@
 <brM3 xmlns="http://brmodelo.sourceforge.net/brM3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://brmodelo.sourceforge.net/brM3 http://brmodelo.sourceforge.net/brM3.xsd">
   <entidades>
     <entidade nome="Cliente" desc
+
+https://i.imgur.com/j7zZj6k.png
+[Cliente] --< (PessoaFisica) >-- [CPF]
+[Cliente] --< (PessoaJuridica) >-- [CNPJ]
+[Cliente] --< (Endereco) >-- [Endereco]
+[Cliente] --< (Telefone) >-- [Telefone]
+[Cliente] --< (Compra) >-- [Data]
+[Cliente] --< (Compra) >-- [Livro]
+[Editora] --< (Endereco) >-- [Endereco]
+[Editora] --< (Telefone) >-- [Telefone]
+[Editora] --< (Gerente) >-- [NomeGerente]
+[Livro] --< (Autor) >-- [NomeAutor]
+[Livro] --< (Assunto) >-- [Assunto]
+[Livro] --< (Editora) >-- [Editora]
+[Livro] --< (ISBN) >-- [ISBN]
+[Livro] --< (Estoque) >-- [Quantidade]
