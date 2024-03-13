@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<brM3 xmlns="http://brmodelo.sourceforge.net/brM3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://brmodelo.sourceforge.net/brM3 http://brmodelo.sourceforge.net/brM3.xsd">
+  <entidades>
+    <entidade nome="Cliente" desc
